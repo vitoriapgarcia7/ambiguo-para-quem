@@ -67,8 +67,7 @@ Ambiguity in natural language software requirements can lead to divergent interp
 
 </details>
 
-> [!TIP]
-> Este resumo deve ficar **igual** ao resumo do artigo. Se um mudar, atualize o outro.
+<!-- Este resumo deve ficar igual ao resumo do artigo. Se um mudar, atualize o outro. -->
 
 ---
 
