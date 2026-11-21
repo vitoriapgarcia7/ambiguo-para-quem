@@ -1,0 +1,35 @@
+Execução,Data,Hora,Plataforma e plano,Modelo,Chat temporário,,,,,,
+1,09/11/2026,17:02,"ChatGPT, web, gratuito",Não informado pela interface,Sim,,,,,,
+2,09/11/2026,17:24,"ChatGPT, web, gratuito",Não informado pela interface,Sim,,,,,,
+3,09/11/2026,17:27,"ChatGPT, web, gratuito",Não informado pela interface,Sim,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Requisito,Exec. 1,Exec. 2,Exec. 3,Nº de Sim,Resultado LLM,Mesmo veredito nas 3,Tipo exec. 1,Tipo exec. 2,Tipo exec. 3,Tipo mais frequente,Mesmo tipo nas 3
+REQ-01,Não,Não,Não,0,Não,Sim,sem tipo,sem tipo,sem tipo,sem tipo,
+REQ-02,Sim,Sim,Sim,3,Sim,Sim,Sintática,Sintática,Sintática,Sintática,Sim
+REQ-03,Sim,Sim,Sim,3,Sim,Sim,Pragmática,Pragmática,Pragmática,Pragmática,Sim
+REQ-04,Sim,Sim,Sim,3,Sim,Sim,Pragmática,Referencial,Referencial,Referencial,Não
+REQ-05,Sim,Sim,Sim,3,Sim,Sim,Pragmática,Pragmática,Lexical,Pragmática,Não
+REQ-06,Sim,Sim,Sim,3,Sim,Sim,Pragmática,Pragmática,Pragmática,Pragmática,Sim
+REQ-07,Sim,Sim,Sim,3,Sim,Sim,Sintática,Sintática,Sintática,Sintática,Sim
+REQ-08,Sim,Sim,Sim,3,Sim,Sim,Pragmática,Pragmática,Pragmática,Pragmática,Sim
+,,,,,,,,,,,
+Resumo,,,,Quantidade,Proporção,,,,,,
+Requisitos com resultado LLM Sim,,,,7,0.875,,,,,,
+Requisitos com resultado LLM Não,,,,1,0.125,,,,,,
+Estabilidade do veredito (mesmo veredito nas 3 execuções),,,,8,1,,,,,,
+"Estabilidade do tipo (mesmo tipo nas 3, entre os ambíguos)",,,,5,0.71429,,,,,,
+Tipo mais frequente: Pragmática,,,,4,,,,,,,
+Tipo mais frequente: Sintática,,,,2,,,,,,,
+Tipo mais frequente: Referencial,,,,1,,,,,,,
+Tipo mais frequente: Lexical,,,,0,,,,,,,
+,,,,,,,,,,,
+Observações de formato das saídas,,,,,,,,,,,
+"Execução 1: REQ-04 com o trecho citado com pequena correção (""whether"" no lugar de ""the whether"").",,,,,,,,,,,
+Execução 2: observação final fora do formato pedido; REQ-04 com o trecho corrigido; trechos citados nos dois idiomas.,,,,,,,,,,,
+"Execução 3: REQ-04 manteve ""the whether""; trechos citados nos dois idiomas.",,,,,,,,,,,
+"Prompt idêntico nas 3 execuções, em chat novo e temporário. A regra de 2 de 3 foi definida antes da análise das respostas humanas.",,,,,,,,,,,
+,,,,,,,,,,,
+Fonte: elaborada pelas autoras com base nas respostas do formulário e nas execuções da LLM.,,,,,,,,,,,

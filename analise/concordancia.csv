@@ -1,0 +1,24 @@
+Requisito,Humano,LLM,Concordam
+REQ-01,Não,Não,Sim
+REQ-02,Sim,Sim,Sim
+REQ-03,Sim,Sim,Sim
+REQ-04,Sim,Sim,Sim
+REQ-05,Sim,Sim,Sim
+REQ-06,Sim,Sim,Sim
+REQ-07,Sim,Sim,Sim
+REQ-08,Sim,Sim,Sim
+,,,
+Tabela de contagem,Valor,,
+a: humano Sim e LLM Sim,7,,
+b: humano Sim e LLM Não,0,,
+c: humano Não e LLM Sim,0,,
+d: humano Não e LLM Não,1,,
+n (requisitos comparados),8,,
+Concordância observada,1,,
+Concordância esperada pelo acaso,0.78125,,
+Kappa de Cohen,1,,
+"Interpretação (Viera e Garrett, 2005)",Quase perfeita,,
+,,,
+,,,
+"O kappa foi calculado por requisito, com o veredito Sim ou Não de cada condição. Com 8 requisitos e Sim em 7 de 8, ele é instável e afetado pela prevalência. Ele não mede a equivalência entre os apontamentos.",,,
+Fonte: elaborada pelas autoras com base nas respostas do formulário e nas execuções da LLM.,,,
