@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se você usar este material, por favor cite-o como abaixo."
+title: "Ambíguo para quem? Material de replicação"
+type: dataset
+authors:
+  - family-names: "Mendonça"
+    given-names: "Hanna"
+    email: "hannamendonca.aluno@unipampa.edu.br"
+    affiliation: "Universidade Federal do Pampa, Campus Alegrete"
+  - name-particle: "de"
+    family-names: "Oliveira"
+    given-names: "Mirieli"
+    email: "mirielioliveira.aluno@unipampa.edu.br"
+    affiliation: "Universidade Federal do Pampa, Campus Alegrete"
+  - family-names: "Perri"
+    given-names: "Natalia"
+    email: "nataliaperri.aluno@unipampa.edu.br"
+    affiliation: "Universidade Federal do Pampa, Campus Alegrete"
+  - family-names: "Garcia"
+    given-names: "Vitória"
+    email: "vitoriapg.aluno@unipampa.edu.br"
+    affiliation: "Universidade Federal do Pampa, Campus Alegrete"
+keywords:
+  - "Engenharia de Requisitos"
+  - "Grandes Modelos de Linguagem"
+  - "Ambiguidade"
+  - "Verificação e Validação de Software"

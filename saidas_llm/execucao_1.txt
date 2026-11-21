@@ -1,0 +1,103 @@
+Data: 9/11/2026
+Horário: 5:02 PM
+Saída 1 da LLM:
+REQ-01
+* É ambíguo? Não
+* Trecho ambíguo: —
+* Tipo de ambiguidade: —
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas: —
+REQ-02
+* É ambíguo? Sim
+* Trecho ambíguo: “send and receive communication between the DigitalHome system and
+the home devices and systems.”
+* Tipo de ambiguidade: Sintática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: o Gateway envia e recebe comunicações entre o sistema DigitalHome e
+os dispositivos e sistemas da casa.
+* Interpretação 2: o Gateway utiliza a comunicação sem fio para enviar e receber
+informações tanto entre o sistema DigitalHome e os dispositivos quanto entre o próprio
+sistema e outros sistemas da casa.
+A diferença está em quais dispositivos e sistemas participam da comunicação, podendo
+alterar quais conexões e trocas de informações deverão ser implementadas e testadas.
+REQ-03
+* É ambíguo? Sim
+* Trecho ambíguo: “from any location”
+* Tipo de ambiguidade: Pragmática
+
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: o usuário pode monitorar e controlar a umidade de qualquer lugar do
+mundo, desde que tenha um dispositivo compatível e acesso à internet.
+* Interpretação 2: o usuário pode monitorar e controlar a umidade de qualquer lugar
+dentro da própria residência.
+A diferença está no alcance do acesso remoto, alterando os locais de onde o usuário
+deverá conseguir acessar e controlar o sistema.
+REQ-04
+* É ambíguo? Sim
+* Trecho ambíguo: “state of a power switch (OFF or ON), indicating whether an appliance
+connected to the power switch is OFF or ON.”
+* Tipo de ambiguidade: Pragmática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: o sistema informa apenas o estado do interruptor, ou seja, se está
+ligado ou desligado.
+* Interpretação 2: o sistema informa o estado real do aparelho conectado, ou seja, se o
+aparelho está funcionando ou desligado.
+A diferença é que um interruptor ligado não significa necessariamente que o aparelho esteja
+funcionando. Assim, os testes podem verificar apenas o estado do interruptor ou também o
+funcionamento do aparelho.
+REQ-05
+* É ambíguo? Sim
+* Trecho ambíguo: “size limitation”
+* Tipo de ambiguidade: Pragmática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: a ferramenta permite selecionar arquivos considerando um limite de
+tamanho individual para cada arquivo.
+
+* Interpretação 2: a ferramenta permite selecionar arquivos considerando o tamanho total
+do conjunto de arquivos.
+A diferença está no critério utilizado para selecionar os arquivos, podendo resultar em
+conjuntos diferentes para processamento.
+REQ-06
+* É ambíguo? Sim
+* Trecho ambíguo: “compliant with Java development environments”
+* Tipo de ambiguidade: Pragmática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: as ferramentas devem funcionar em ambientes de desenvolvimento
+Java, permitindo sua utilização nesses ambientes.
+* Interpretação 2: as ferramentas devem ser desenvolvidas seguindo padrões e
+tecnologias compatíveis com Java, utilizando serviços web, APIs RESTful e outros recursos.
+A diferença está em exigir apenas compatibilidade para utilização em ambientes Java ou
+exigir que a própria implementação siga tecnologias e padrões relacionados ao Java.
+REQ-07
+* É ambíguo? Sim
+* Trecho ambíguo: “a clear Application Programming Interface (API) to handle the migration
+process and default configuration.”
+* Tipo de ambiguidade: Sintática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: a API deve permitir controlar tanto o processo de migração quanto a
+configuração padrão.
+* Interpretação 2: a API deve permitir controlar o processo de migração, enquanto a
+configuração padrão é apenas uma informação ou recurso disponibilizado pelo fluxo de
+trabalho.
+A diferença está nas responsabilidades da API: na primeira interpretação, ela também deve
+permitir configurar os parâmetros padrão; na segunda, não necessariamente.
+
+REQ-08
+* É ambíguo? Sim
+* Trecho ambíguo: “Dry run is defined entirely by the configuration.”
+* Tipo de ambiguidade: Pragmática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: o comportamento da simulação é determinado exclusivamente pelas
+configurações fornecidas pelo usuário.
+* Interpretação 2: a configuração determina apenas se a migração será executada como
+dry-run, enquanto outros comportamentos da simulação podem ser definidos
+automaticamente pela ferramenta.
+A diferença está no quanto a configuração controla a simulação, podendo alterar quais
+operações são executadas e quais informações aparecem nos relatórios.

@@ -1,0 +1,121 @@
+Data: 9/11/2026
+Horário: 5:27 PM
+Saída 3 da LLM:
+REQ-01
+* É ambíguo? Não
+* Trecho ambíguo: —
+* Tipo de ambiguidade: —
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas: —
+REQ-02
+* É ambíguo? Sim
+* Trecho ambíguo: “uses wireless communication to send and receive communication
+between the DigitalHome system and the home devices and systems.”
+* Tipo de ambiguidade: Sintática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: A comunicação sem fio é utilizada para enviar e receber informações
+entre o sistema DigitalHome e os dispositivos e sistemas da casa.
+* Interpretação 2: A comunicação sem fio é utilizada para enviar e receber informações
+entre o sistema DigitalHome e tanto os dispositivos quanto outros sistemas da casa,
+considerando-os como categorias de comunicação distintas.
+A diferença está no escopo dos elementos com os quais o Gateway deve se comunicar. Na
+primeira interpretação, dispositivos e sistemas podem ser entendidos como uma categoria
+conjunta; na segunda, ambos devem ser contemplados separadamente na comunicação
+sem fio.
+REQ-03
+* É ambíguo? Sim
+* Trecho ambíguo: “from any location” / “a partir de qualquer local”
+* Tipo de ambiguidade: Pragmática
+
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: O usuário pode monitorar e controlar a umidade de qualquer local,
+desde que tenha acesso à Internet e utilize um dos dispositivos indicados.
+* Interpretação 2: O usuário pode monitorar e controlar a umidade de qualquer local,
+inclusive sem conexão à rede doméstica ou à Internet, desde que utilize um dos dispositivos
+indicados.
+A diferença está nas condições de acesso remoto exigidas pelo sistema. Na primeira
+interpretação, o acesso depende de conectividade externa; na segunda, a expressão
+sugere uma disponibilidade irrestrita quanto à localização, sem explicitar as condições
+necessárias de conexão.
+REQ-04
+* É ambíguo? Sim
+* Trecho ambíguo: “the state of a power switch (OFF or ON), indicating the whether an
+appliance connected to the power switch is OFF or ON.”
+* Tipo de ambiguidade: Referencial
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: O sistema informa o estado do próprio interruptor de energia, indicando
+se ele está ligado ou desligado.
+* Interpretação 2: O sistema informa o estado do aparelho conectado ao interruptor,
+indicando se o aparelho está ligado ou desligado.
+A diferença está no objeto cujo estado deve ser monitorado e informado. Na primeira
+interpretação, o sistema verifica a condição do interruptor; na segunda, verifica a condição
+do aparelho. Os estados podem ser diferentes, por exemplo, quando o interruptor está
+ligado, mas o aparelho não está funcionando.
+REQ-05
+* É ambíguo? Sim
+* Trecho ambíguo: “size limitation” / “limitação de tamanho”
+* Tipo de ambiguidade: Lexical
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+
+* Interpretação 1: A limitação de tamanho refere-se ao tamanho individual de cada
+arquivo WARC selecionado.
+* Interpretação 2: A limitação de tamanho refere-se ao tamanho total do conjunto de
+arquivos WARC selecionados.
+A diferença está no critério utilizado para selecionar os arquivos. Na primeira interpretação,
+cada arquivo deve respeitar individualmente o limite estabelecido; na segunda, a soma dos
+tamanhos dos arquivos selecionados deve respeitar esse limite.
+REQ-06
+* É ambíguo? Sim
+* Trecho ambíguo: “compliant with Java development environments, by using web services,
+RESTful API’s, etc.” / “em conformidade com ambientes de desenvolvimento Java, por meio
+do uso de serviços web, APIs RESTful etc.”
+* Tipo de ambiguidade: Pragmática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: As ferramentas devem ser compatíveis com ambientes de
+desenvolvimento Java, podendo ser utilizadas ou integradas nesses ambientes por meio de
+serviços web e APIs RESTful.
+* Interpretação 2: As ferramentas devem ser desenvolvidas utilizando tecnologias ou
+interfaces compatíveis com o ecossistema Java, sendo os serviços web e as APIs RESTful
+os mecanismos exigidos para essa compatibilidade.
+A diferença está no critério de conformidade. Na primeira interpretação, o requisito trata da
+capacidade de integração com ambientes Java; na segunda, trata das tecnologias e
+interfaces que devem ser utilizadas na implementação das ferramentas.
+REQ-07
+* É ambíguo? Sim
+* Trecho ambíguo: “to handle the migration process and default configuration” / “para tratar o
+processo de migração e a configuração padrão”
+* Tipo de ambiguidade: Sintática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+
+* Interpretação 1: A API deve permitir controlar o processo de migração e também
+gerenciar a configuração padrão.
+* Interpretação 2: A API deve permitir controlar o processo de migração utilizando a
+configuração padrão, sem necessariamente oferecer operações para gerenciar essa
+configuração.
+A diferença está nas responsabilidades atribuídas à API. Na primeira interpretação, ela deve
+disponibilizar funcionalidades para tratar separadamente a migração e a configuração
+padrão; na segunda, a configuração padrão é apenas um parâmetro ou recurso utilizado
+durante a migração.
+REQ-08
+* É ambíguo? Sim
+* Trecho ambíguo: “without writing real WARC data (i.e. simulating only). Dry run is defined
+entirely by the configuration.”
+* Tipo de ambiguidade: Pragmática
+* Descrição das duas interpretações possíveis e o que muda no comportamento do sistema
+entre elas:
+* Interpretação 1: A configuração define completamente o comportamento do dry-run,
+inclusive quais operações serão simuladas e quais relatórios serão gerados, sem que dados
+WARC reais sejam gravados.
+* Interpretação 2: A configuração apenas determina se a migração será executada em
+modo dry-run, enquanto o comportamento da simulação e os relatórios gerados são
+definidos internamente pelas ferramentas.
+A diferença está no grau de controle oferecido pela configuração. Na primeira interpretação,
+todo o comportamento da simulação deve ser configurável; na segunda, a configuração
+apenas ativa o modo de simulação, cujo funcionamento é determinado pela implementação
+das ferramentas.

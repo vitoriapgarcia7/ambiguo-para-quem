@@ -1,0 +1,106 @@
+
+
+Você vai atuar como revisor de requisitos de software. Sua tarefa é identificar ambiguidades em requisitos já existentes.
+
+CRITÉRIO DE AMBIGUIDADE
+Um requisito é AMBÍGUO quando, com o mesmo contexto fornecido, permite pelo menos duas interpretações plausíveis que levam a consequências diferentes para o comportamento esperado do sistema ou para os critérios de aceitação (o que seria testado). Sugestões de estilo e informação apenas faltando, sem duas leituras plausíveis, não contam como ambiguidade.
+
+TIPOS DE AMBIGUIDADE
+- Lexical: uma palavra tem mais de um sentido.
+- Sintática: a estrutura da frase permite mais de uma leitura.
+- Referencial: um pronome ou expressão pode se referir a mais de uma coisa.
+- Pragmática: o sentido depende de contexto ou convenção que o texto não deixa claros.
+
+INSTRUÇÕES
+- Cada requisito aparece com o texto original em inglês e uma tradução de apoio em português. Avalie o requisito considerando os dois textos juntos.
+- Use apenas o texto fornecido. Não é preciso conhecer o assunto do documento. Não pesquise.
+- Analise todos os 8 requisitos, inclusive os que achar claros.
+- Responda em português. Para cada requisito, responda exatamente neste formato:
+
+REQ-XX
+1. É ambíguo? (Sim ou Não)
+2. Trecho ambíguo: (copie o pedaço do requisito; se a resposta for Não, escreva "—")
+3. Tipo de ambiguidade: (Lexical, Sintática, Referencial ou Pragmática; se a resposta for Não, escreva "—")
+4. Descrição das duas interpretações possíveis e o que muda no comportamento do sistema entre elas: (se a resposta for Não, escreva "—")
+
+REQUISITOS
+
+REQ-01
+Contexto: documento de requisitos de um sistema de automação residencial (DigitalHome).
+
+Original:
+The Gateway shall contain an RF Module, which shall send and receive wireless communications between the Gateway and the other DigitalHome devices (sensors and controllers).
+
+Tradução de apoio:
+O Gateway deverá conter um Módulo RF, o qual deverá enviar e receber comunicações sem fio entre o Gateway e os demais dispositivos DigitalHome (sensores e controladores).
+
+REQ-02
+Contexto: documento de requisitos de um sistema de automação residencial (DigitalHome).
+
+Original:
+Each DigitalHome shall contain a master control device (the DH Gateway Device) that connects to the home’s broadband Internet connection, and uses wireless communication to send and receive communication between the DigitalHome system and the home devices and systems.
+
+Tradução de apoio:
+Cada DigitalHome deverá conter um dispositivo de controle mestre (o Dispositivo Gateway DH) que se conecta à conexão de Internet banda larga da casa e usa comunicação sem fio para enviar e receber comunicação entre o sistema DigitalHome e os dispositivos e sistemas da casa.
+
+REQ-03
+Contexto: documento de requisitos de um sistema de automação residencial (DigitalHome).
+
+Original:
+The DigitalHome programmable humidistat shall allow a user to monitor and control a home’s humidity from any location, using a web ready computer, cell phone, or PDA.
+
+Tradução de apoio:
+O higrostato programável do DigitalHome deverá permitir que um usuário monitore e controle a umidade de uma casa a partir de qualquer local, usando um computador pronto para a web, telefone celular ou PDA.
+
+REQ-04
+Contexto: documento de requisitos de um sistema de automação residencial (DigitalHome).
+
+Original:
+The system shall be able to provide information about the state of a power switch (OFF or ON), indicating the whether an appliance connected to the power switch is OFF or ON.
+
+Tradução de apoio:
+O sistema deverá ser capaz de fornecer informação sobre o estado de um interruptor de energia (DESLIGADO ou LIGADO), indicando se um aparelho conectado ao interruptor de energia está DESLIGADO ou LIGADO.
+
+REQ-05
+Contexto: documento de requisitos de ferramentas para processar e migrar arquivos de arquivamento da web (formato WARC).
+
+Original:
+The tools shall be able to process a set of multiple WARC files at the same time. For this purpose, the tools will allow you to choose/group them by:
+• explicit naming
+• wildcard name matching
+• size limitation
+• number of items
+
+Tradução de apoio:
+As ferramentas deverão ser capazes de processar um conjunto de vários arquivos WARC ao mesmo tempo. Para isso, as ferramentas permitirão que você escolha/agrupe esses arquivos por:
+• nomeação explícita
+• correspondência de nome com curinga
+• limitação de tamanho
+• número de itens
+
+REQ-06
+Contexto: documento de requisitos de ferramentas para processar e migrar arquivos de arquivamento da web (formato WARC).
+
+Original:
+The tools shall be compliant with Java development environments, by using web services, RESTful API’s, etc.
+
+Tradução de apoio:
+As ferramentas deverão estar em conformidade com ambientes de desenvolvimento Java, por meio do uso de serviços web, APIs RESTful etc.
+
+REQ-07
+Contexto: documento de requisitos de ferramentas para processar e migrar arquivos de arquivamento da web (formato WARC).
+
+Original:
+The migration workflow shall provide a clear Application Programming Interface (API) to handle the migration process and default configuration.
+
+Tradução de apoio:
+O fluxo de trabalho de migração deverá fornecer uma Interface de Programação de Aplicações (API) clara para tratar o processo de migração e a configuração padrão.
+
+REQ-08
+Contexto: documento de requisitos de ferramentas para processar e migrar arquivos de arquivamento da web (formato WARC).
+
+Original:
+It shall be possible to perform a “dry-run migration”. That is, a blank conversion to generate useful reports (performance issues, bad ARCs, time estimation ...) without writing real WARC data (i.e. simulating only). Dry run is defined entirely by the configuration.
+
+Tradução de apoio:
+Deverá ser possível realizar uma “migração dry-run”. Ou seja, uma conversão em branco para gerar relatórios úteis (problemas de desempenho, ARCs defeituosos, estimativa de tempo ...) sem gravar dados WARC reais (isto é, apenas simulando). O dry run é definido inteiramente pela configuração.

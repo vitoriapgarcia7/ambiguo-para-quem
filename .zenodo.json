@@ -1,0 +1,14 @@
+{
+  "title": "Ambíguo para quem? Material de replicação",
+  "upload_type": "dataset",
+  "description": "Prompt, instrumentos, saídas da LLM, respostas anonimizadas dos revisores e planilhas de análise de um estudo piloto que compara revisão humana e uma LLM na identificação de ambiguidades em requisitos de software.",
+  "creators": [
+    {"name": "Mendonça, Hanna", "affiliation": "Universidade Federal do Pampa"},
+    {"name": "de Oliveira, Mirieli", "affiliation": "Universidade Federal do Pampa"},
+    {"name": "Perri, Natalia", "affiliation": "Universidade Federal do Pampa"},
+    {"name": "Garcia, Vitória", "affiliation": "Universidade Federal do Pampa"}
+  ],
+  "keywords": ["engenharia de requisitos", "ambiguidade", "grandes modelos de linguagem", "verificação e validação"],
+  "license": "cc-by-4.0",
+  "language": "por"
+}
