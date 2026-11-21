@@ -6,12 +6,10 @@
 ![tipo](https://img.shields.io/badge/estudo-piloto-orange)
 ![squad](https://img.shields.io/badge/Squad-05-purple)
 ![curso](https://img.shields.io/badge/Engenharia%20de%20Software-Unipampa-green)
-<!-- Depois da release no Zenodo, descomente e troque XXXXXXX pelo número do DOI:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24427857.svg)](https://doi.org/10.5281/zenodo.24427857)
 
 > [!NOTE]
-> **Artigo:** PDF final disponível na versão de dezembro de 2026 · **DOI:** [colar aqui o DOI do Zenodo]
+> **Artigo:** PDF final disponível na versão de dezembro de 2026 · **DOI:** [10.5281/zenodo.24427857](https://doi.org/10.5281/zenodo.24427857)
 
 ---
 
@@ -138,8 +136,8 @@ O GitHub mostra o botão **"Cite this repository"** (arquivo [CITATION.cff](CITA
   title     = {Ambíguo para quem? Material de replicação},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.24427857},
+  url       = {https://doi.org/10.5281/zenodo.24427857}
 }
 ```
 

@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Se você usar este material, por favor cite-o como abaixo."
 title: "Ambíguo para quem? Material de replicação"
+doi: 10.5281/zenodo.24427857
 type: dataset
 authors:
   - family-names: "Mendonça"
